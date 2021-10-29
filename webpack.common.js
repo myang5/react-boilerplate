@@ -13,11 +13,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
   },
-  resolve: {
-    alias: {
-      'react-dom': '@hot-loader/react-dom',
-    },
-  },
   optimization: {
     splitChunks: {
       chunks: 'all',
